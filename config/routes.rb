@@ -1,4 +1,16 @@
 BlogOnRails::Application.routes.draw do
+  resources :sessions
+
+  resources :comments
+
+  resources :tags
+
+  resources :categories
+
+  resources :posts
+
+  resources :authors
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
